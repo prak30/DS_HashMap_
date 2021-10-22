@@ -14,8 +14,8 @@ public class MyHashMapImplementation {
 				value = value + 1;
 			myHashMap.add(word, value);
 		}
-		int frequency = myHashMap.get("paranoid");
+
+		myHashMap.delete("avoidable");
 		System.out.println(myHashMap);
-		System.out.println("Frequency of word (paranoid) is " + frequency);
 	}
 }
